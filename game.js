@@ -53,24 +53,24 @@ function calcularResultado() {
   });
   let mensaje = '';
   let imagenURL = '';
-  if (total >= 10 && total <= 20) {
+    if (total >= 10 && total <= 20) {
     mensaje = "Eres un tamal de Pollo";
-    imagenURL = "imagen1.jpg";
+    imagenURL = "https://www.klipartz.com/es/sticker-png-ghdjk";
   } else if (total >= 20 && total <= 30) {
-    mensaje = "Eres un tamal de mole";
-    imagenURL = "imagen2.jpg";
+    mensaje = "Eres un tamal rojo";
+    imagenURL = "https://quehagodecomerhoy.com/wp-content/uploads/2018/04/Tamales-Rojos-825x510.jpg";
   } else if (total >= 30 && total <= 40) {
     mensaje = "Eres un tamal de elote";
-    imagenURL = "imagen3.jpg";
+    imagenURL = "https://cdn7.kiwilimon.com/recetaimagen/14561/640x640/6941.jpg.webp";
   } else if (total >= 40 && total <= 50) {
     mensaje = "Eres un tamal oxaqueño";
-    imagenURL = "imagen4.jpg";
+    imagenURL = "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/68D64DAE-9605-42AC-BDCF-328A509EC776/Derivates/7AC0E9FD-F0DA-410B-9D78-19D3C3BEA1F3.jpg";
   } else if (total >= 50 && total <= 60) {
     mensaje = "Eres un tamal de camarón";
-    imagenURL = "imagen5.jpg";
+    imagenURL = "https://www.radioformula.com.mx/u/fotografias/m/2022/7/30/f768x1-595273_595400_9.jpg";
   } else if (total >= 60 && total <= 70) {
     mensaje = "Eres un tamal dulce";
-    imagenURL = "imagen6.jpg";
+    imagenURL = "https://cocinamia.com.mx/wp-content/uploads/2019/06/Sin-t%C3%ADtulo-2-14-1100x500.png";
   } else if (total >= 70 && total <= 80) {
     mensaje = "Eres un tamal de rajas con queso";
     imagenURL = "imagen7.jpg";
